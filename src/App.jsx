@@ -8,6 +8,11 @@ import Col from 'react-bootstrap/Col'
 import Post from './Post'
 import Posts from './Posts'
 import Postimg1 from './assets/post-img-1.jpg'
+import Postimg2 from './assets/post-img-2.jpg'
+import Postimg3 from './assets/post-img-3.jpg'
+import Postimg4 from './assets/post-img-4.jpg'
+import Postimg5 from './assets/post-img-5.jpg'
+import Postimg6 from './assets/post-img-6.jpg'
 
 import { FaRegPenToSquare, FaBook, FaCalendar, FaBriefcase, FaGraduationCap, FaNewspaper } from "react-icons/fa6";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
@@ -38,35 +43,35 @@ export default function App() {
     author="Aakash Khamaru"
     icon={<FaBook />}
   /> <Post
-    img={Postimg1}
+    img={Postimg2}
     type='Event'
     heading="Tech Conference 2023"
     cont="Join us for the latest insights in technology and innovation..."
     author="Tech Events Inc."
     icon={<FaCalendar />}
   /><Post
-    img={Postimg1}
+    img={Postimg3}
     type='Job'
     heading="Software Engineer Position"
     cont="We are hiring a skilled Software Engineer to join our team..."
     author="Tech Innovations Ltd."
     icon={<FaBriefcase />}
   /><Post
-    img={Postimg1}
+    img={Postimg4}
     type='Education'
     heading="Advanced JavaScript Workshop"
     cont="Take your JavaScript skills to the next level with our advanced workshop covering modern frameworks and best practices..."
     author="CodeMaster"
     icon={<FaGraduationCap />}
   /><Post
-    img={Postimg1}
+    img={Postimg5}
     type='Event'
     heading="Web Development Summit 2023"
     cont="Join industry experts and developers from around the world at the Web Development Summit to explore the latest trends and technologies..."
     author="TechConferences LLC"
     icon={<FaCalendar />}
   /><Post
-    img={Postimg1}
+    img={Postimg6}
     type='Article'
     heading="The Impact of Artificial Intelligence on Society"
     cont="Explore the ethical and societal implications of the rapid advancements in artificial intelligence and machine learning..."
