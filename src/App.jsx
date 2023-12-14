@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col'
 import Post from './Post'
 import Posts from './Posts'
 import Postimg1 from './assets/post-img-1.jpg'
-import PhoneNav from './PhonePostNav'
+
 import { FaRegPenToSquare, FaBook, FaCalendar, FaBriefcase, FaGraduationCap, FaNewspaper } from "react-icons/fa6";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.min'
@@ -20,7 +20,6 @@ export default function App() {
     function show() {
         const mql = window.matchMedia("(max-width:800px)")
         if (mql.matches) {
-            console.log('phone')
             setShowNav(false)
         }
     }
@@ -28,9 +27,8 @@ export default function App() {
         show()
     })
     return ( < > { showNav && <Navigation/> }
-        <FirstPage/> {
-            (showNav) ? <PostNavigation/> : <PhoneNav/>
-        }
+        <FirstPage/> <
+        PostNavigation / >
         <Posts>
        <Post
     img={Postimg1}

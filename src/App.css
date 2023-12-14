@@ -26,7 +26,7 @@ div.first-scroll div.text {
     position: relative;
     color: white;
     left: 10%;
-    top: 60%;
+    top: 50%;
 
 }
 
@@ -128,6 +128,16 @@ ul.post-type {
         font-size: 1.3rem;
     }
 
+    nav.PhoneNav {
+        position: relative;
+        top: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.3rem;
+        font-weight: 500;
+        padding-right: 1.5rem;
+    }
 }
 
 .no-line {
@@ -140,10 +150,14 @@ ul.post-type {
     padding-bottom: 5px;
 }
 
-nav.PhoneNav {
+/*nav.PhoneNav {
+    position: relative;
+    top: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.3rem;
     font-weight: 500;
-}
+    padding-right: 1.5rem;
+
+}*/

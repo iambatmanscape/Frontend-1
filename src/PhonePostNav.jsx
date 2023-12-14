@@ -1,10 +1,12 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container'
-export default function PhoneNav() {
-	return(<Container>
-	<nav className='PhoneNav'>
-		<p>Posts(5)</p>
-		<p>DropDown</p>
+import Button from 'react-bootstrap/Button';
+import { FaArrowLeft } from "react-icons/fa";
+export default function PhoneNav({ text, handler }) {
+    return (
+        <nav className='PhoneNav mobi'>
+		<Button variant="transparent"><FaArrowLeft style={{color:'white'}}/></Button>
+		<Button variant="outline-light" onClick={handler}>{text}</Button>
 	</nav>
-	</Container>)
+    )
 }
