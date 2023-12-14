@@ -125,7 +125,7 @@ ul.post-type {
     }
 
     div.first-scroll div.text p {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     nav.PhoneNav {
@@ -149,15 +149,3 @@ ul.post-type {
     border-bottom: 1px solid black;
     padding-bottom: 5px;
 }
-
-/*nav.PhoneNav {
-    position: relative;
-    top: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 1.3rem;
-    font-weight: 500;
-    padding-right: 1.5rem;
-
-}*/
