@@ -10,7 +10,7 @@ export default function PostNavigation() {
     return (<Container>
 		<div className='posts'>
 		 <ul className='post-type mt-1'>
-		    <li><a className='no-line text-dark mobi fw-bold' href='#'>Posts(5)</a></li>
+		    <li><a className='no-line text-dark mobi fw-bold' href='#'>Posts(7)</a></li>
 		   	<li><a className='no-line text-secondary active web' href='#'>All posts</a></li>
 		   	<li><a className='no-line text-secondary web' href='#'>Article</a></li>
 		   	<li><a className='no-line text-secondary web' href='#'>Event</a></li>
