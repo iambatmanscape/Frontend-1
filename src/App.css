@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+a.sign-up-link {
+    text-decoration: none;
+    color: skyblue;
+}
+
+div.first-scroll {
+    width: 100vw;
+    height: 80vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./assets/bg-img.jpg) no-repeat;
+    background-size: cover;
+}
+
+div.first-scroll div.text {
+    position: relative;
+    color: white;
+    left: 10%;
+    top: 60%;
+
+}
+
+div.first-scroll div.text h2 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+div.first-scroll div.text p {
+    font-size: 1.5rem;
+}
+
+div.posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    border-bottom: 1px solid black;
+}
+
+ul.post-type {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    list-style-type: none;
+    font-size: 1.1rem;
+    color: #a7a7a7;
+}
+
+.card-title {
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.card-subtitle {
+    margin-top: 1rem;
+}
+
+.lower {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.round {
+    border-radius: 1rem;
+}
+
+.fa-magnifying-glass {
+    position: relative;
+    left: 10%;
+    top: 0.6rem;
+}
+
+.mobi {
+    display: none;
+}
+
+.web {
+    display: block;
+}
+
+@media screen and (max-width:800px) {
+    .no-inflow {
+        display: none;
+    }
+
+    .mobi {
+        display: block;
+    }
+
+    .web {
+        display: none;
+    }
+
+    div.first-scroll {
+        height: 60vh;
+
+    }
+
+    div.first-scroll div.text {
+        position: relative;
+        color: white;
+        left: 10%;
+        top: 40%;
+
+    }
+
+    div.first-scroll div.text h2 {
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    div.first-scroll div.text p {
+        font-size: 1.3rem;
+    }
+
+}
+
+.no-line {
+    text-decoration: none;
+
+}
+
+.active {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+nav.PhoneNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
